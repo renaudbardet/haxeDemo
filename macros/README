@@ -1,0 +1,13 @@
+This example shows the usage of macros to create types at compile time
+
+in this sample we parse the folder logos and for each image file we create an embedded BitmapData subtype
+with the @:bitmap metadata
+the purpose of this sample is not so much to demonstrate the usage of @:bitmap as the possibility to
+create new manipulable types at compile time through a macro
+
+this sample is only intended for the flash platform and contains flash api calls
+you will need haxe 3.0 to run this sample
+
+run:
+haxe macros.hxml
+open flash/test.swf

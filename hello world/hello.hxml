@@ -1,0 +1,19 @@
+-cp src
+-main Hello
+-swf flash/hello.swf
+
+--next
+-cp src
+-main Hello
+-js javascript/hello.js
+
+--next
+-cp src
+-main Hello
+-D HXCPP_CLANG
+-cpp cpp/hello
+
+--next
+-cp src
+-main Hello
+-neko neko/hello.n

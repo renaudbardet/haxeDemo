@@ -1,0 +1,4 @@
+--next
+-cp src
+-main Test
+-neko neko/test.n

@@ -1,0 +1,2 @@
+ -DHXCPP_CLANG="1" -Dhaxe3="1" -Dhaxe_release="1" -Dhaxe_ver="3."
+/usr/lib/haxe/lib/hxcpp/3,0,2/

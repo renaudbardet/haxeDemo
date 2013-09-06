@@ -1,0 +1,24 @@
+This example shows a usage of a lot of Haxe functionalities including (but not limited to):
+ - generics
+ - strong typing of functions
+ - anonymous functions
+ - type inference
+ - Enums
+ - typdef
+ - structs
+ - enum lookup
+ - pattern matching
+ - array comprehension
+ - using mixin
+ - ...
+
+this sample matches serveral AI players in a game of tictactoe and arrange them in a ladder to determine a winner
+
+to run this project you need haxe 3.0 and hxcpp for the cpp target
+
+run:
+haxe tictactoe.hxml
+./cpp/tictactoe/TicTacToe
+open flash/tictactoe.swf
+open javacsript/tictactoe.htnl
+neko neko/tictactoe.n

@@ -1,0 +1,19 @@
+-cp src
+-main TicTacToe
+-swf flash/tictactoe.swf
+
+--next
+-cp src
+-main TicTacToe
+-js javascript/tictactoe.js
+
+--next
+-cp src
+-main TicTacToe
+-D HXCPP_CLANG
+-cpp cpp/tictactoe
+
+--next
+-cp src
+-main TicTacToe
+-neko neko/tictactoe.n

@@ -1,0 +1,11 @@
+This example demonstrates the usage of abstract types through a basic matrix use case
+M44 stands for a 4 by 4 matrix of numbers, we show here how to take advantage of the
+abstract type's multi cast to create the M44 type from differently formated sources
+and the use of operator overloading in order to do a multiplication by a scalar using
+the context-redefined * operator
+
+you need haxe 3.0 to run this example
+
+run:
+haxe matrix.hxml
+neko neko/test.n

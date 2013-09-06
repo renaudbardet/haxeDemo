@@ -1,0 +1,10 @@
+This example shows how you can target the same code to multiple plateforms
+
+to run this project you need haxe 3.0 and hxcpp for the cpp target
+
+run:
+haxe hello.hxml
+./cpp/hello/Hello
+open flash/hello.swf
+open javacsript/hello.htnl
+neko neko/hello.n

@@ -1,0 +1,5 @@
+-cp src
+-main Test
+-lib actuate
+-swf-header 800:600:30:0xFFFFFF
+-swf flash/test.swf
